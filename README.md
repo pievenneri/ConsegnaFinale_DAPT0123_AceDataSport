@@ -14,12 +14,15 @@ Donne: http://www.tennisabstract.com/cgi-bin/leaders_wta.cgi<br>
 Ho trasformato questi dati in file CSV e li ho importati in Power BI. L'obiettivo principale era esaminare la possibile esistenza di diversi "profili" di giocatori di tennis e valutare come tali profili potessero essere correlati al genere dei partecipanti. E' importante notare che il set di dati è composto da 100 giocatori, e comprende principalmente dati relativi alle prestazioni (ad esempio, punti vinti al servizio), mentre mancano informazioni dettagliate sugli aspetti fisici del gioco (come la velocità del servizio).
 È evidente che gli uomini superano le donne in termini di punti guadagnati al servizio, ace realizzati e giochi vinti al servizio. Questa disparità è comprensibile, considerando che gli uomini tendono probabilmente a possedere servizi più potenti e difficili da contrastare. È altresì plausibile che le donne abbiano focalizzato maggiormente il loro sviluppo nel miglioramento delle abilità di risposta, mentre gli uomini abbiano dato maggiore attenzione all'incremento delle prestazioni nel servizio.
 # 2. Analisi degli ultimi 20 anni del Grande Slam
-Ci sono 4 tornei principali conosciuti come tornei del Grande Slam e vengono giocatori su tre diversi tipi di superfici (terra, cemenro, erba). 
-L’obiettivo di questo è analizzare i dati degli ultimi 20 anni del torneo Grande Slam: Wimbledon, Australian Open, US Open e French Open solo per l'ATP
-Il set di dati è composto da tre dataset:<br>
-Match.csv: Contiene tutti i dati a livello di partire. Esempio: turno, torneo, anno del torneo, etc.<br>
-Player.csv: Contiene tutti i dettagli relativi a ciascun giocatore. Esempio: compleanno, mano di gioco, paese, etc.<br>
-Stats.csv: Contiene tutti i dati di tutte le partite giocate da ciascun giocatore. Esempio: ace, break point vinti/salvati, classifica, punti, etc.<br>
+Esistono quattro tornei di primissimo piano noti come i "Grande Slam," ognuno disputato su tre diverse superfici: terra battuta, cemento e erba. Lo scopo di questa analisi è l'approfondimento dei dati relativi agli ultimi 20 anni dei tornei del Grande Slam, concentrandosi specificamente su Wimbledon, l'Open d'Australia, lo US Open e il Roland Garros, ma limitando l'analisi all'ATP. Il set di dati utilizzato è composto da tre diverse raccolte di informazioni:<br>
+1-Match.csv: Questo file contiene una vasta gamma di dati relativi alle singole partite, tra cui informazioni come il turno del torneo, il nome del torneo, l'anno in cui si è svolto, e altro ancora.<br>
+2-Player.csv: Questo dataset comprende tutti i dettagli rilevanti di ogni singolo giocatore partecipante, tra cui data di nascita, mano dominante di gioco, nazionalità e altri attributi.<br>
+3-Stats.csv: In questo file sono raccolti tutti i dati relativi alle performance di ciascun giocatore nelle partite disputate, tra cui il numero di ace, i punti guadagnati, i break point vinti o salvati, la classifica e molti altri indicatori significativi.<br>
+Questo progetto mira a esaminare in modo approfondito le sfumature delle prestazioni dei giocatori di tennis in questi prestigiosi tornei del Grande Slam, fornendo una panoramica completa delle sfide e dei trionfi che hanno caratterizzato gli ultimi 20in queste importanti competizioni.
+
+
+
+
 
 
 
